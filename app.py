@@ -17,6 +17,39 @@ app= Flask(__name__)
 def index():
   return render_template('index.html')
 
+@app.route('index.html')
+def index():
+  return render_template('index.html')
+
+@app.route('about.html')
+def index():
+  return render_template('about.html')  
+
+@app.route('my-account.html')
+def index():
+  return render_template('my-account.html')
+
+
+@app.route('contact-us.html')
+def index():
+  return render_template('contact-us.html')
+
+
+@app.route('register.html')
+def index():
+  return render_template('register.html')
+
+@app.route('cart.html')
+def index():
+  return render_template('cart.html')
+
+@app.route('admin.html')
+def index():
+  return render_template('admin.html')
+
+
+
+
 # @app.route('/home')
 # def home():
 #   return render_template('index.html', username=-session['username'])
