@@ -1,5 +1,7 @@
 
-import flask import flask
+from flask import flask
+from flask.app import Flask
+from flask.templating import render_template
 
 
 # def get_sql_connection():
